@@ -1,11 +1,11 @@
 {
-    "name": "school_attendance",
-    "short_name": "school_attendance",
+    "name": "IBA Public School Ubauro · Attendance",
+    "short_name": "IBA PS Ubauro",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#FFFFFF",
+    "theme_color": "#2F25C9",
+    "description": "Attendance and results for IBA Public School Ubauro.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
