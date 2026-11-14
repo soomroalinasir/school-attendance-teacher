@@ -3,7 +3,7 @@
     "short_name": "IBA PS Ubauro",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#FFFFFF",
+    "background_color": "#2F25C9",
     "theme_color": "#2F25C9",
     "description": "Attendance and results for IBA Public School Ubauro.",
     "orientation": "portrait-primary",
