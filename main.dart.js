@@ -132745,7 +132745,7 @@ case 19:s=a1!=null&&!J.c(e.h(0,"role"),a1)?21:22
 break
 case 21:s=23
 return A.i(i.b.ghd().lu(B.it,B.eB),$async$n8)
-case 23:throw A.e(A.ms(J.c(e.h(0,"role"),"admin")?"This is an admin account. Go back and tap \u201cAdmin / Principal\u201d.":"This is a teacher account. Go back and tap \u201cTeacher\u201d."))
+case 23:throw A.e(A.ms(J.c(e.h(0,"role"),"admin")?"This is a co-ordinator or principal account. Go back and tap \u201cCo-ordinators / Principal\u201d.":"This is a teacher account. Go back and tap \u201cTeacher\u201d."))
 case 22:i=A.Z(e.h(0,"role"))
 h=A.b5(e.h(0,"full_name"))
 if(h==null)h=""
@@ -136591,14 +136591,14 @@ n.push(new A.qT(1,A.T(s,p,p,p,p,r==null?p:r.aRA(B.eS,0.4),B.dl,p,p),p))
 n.push(B.fW)
 n.push(new A.qT(2,new A.Up(B.Ad,"Teacher","Take attendance for your periods and your own classes",q.f?p:new A.aYW(q),p),p))
 n.push(B.vk)
-n.push(new A.qT(3,new A.Up(B.Aa,"Admin / Principal","Reports, PDF downloads and school setup",q.f?p:new A.aYX(q),p),p))
+n.push(new A.qT(3,new A.Up(B.Aa,"Co-ordinators / Principal","Reports, PDF downloads and school setup",q.f?p:new A.aYX(q),p),p))
 if($.pj)n.push(new A.qT(4,new A.ax(B.a1X,A.f3(A.EJ(B.Ai,B.SS,q.f?p:q.ga4j(),p),p,p),p),p))
 if(q.f)B.l.I(n,A.b([B.fW,B.cb],o))
 return A.c2(n,B.c0,B.N,B.R)},
 ayJ(a){var s,r,q,p=this,o=null,n=t.p,m=A.b([],n)
 if(!p.a.c){s=p.z==="admin"
 r=s?B.Aa:B.Ad
-s=s?"Admin sign in":"Teacher sign in"
+s=s?"Co-ordinators / Principal sign in":"Teacher sign in"
 q=a.ok.r
 s=A.cr(A.T(s,o,o,o,o,q==null?o:q.tv(B.bd),o,o,o),1)
 m.push(new A.ax(B.a1T,A.c8(A.b([new A.SD(r,44,o),B.ix,s,A.EJ(B.Al,B.bqe,p.f?o:new A.aZ2(p),o)],n),B.V,B.N,B.R,0,o),o))}s=p.f
